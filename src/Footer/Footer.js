@@ -9,7 +9,7 @@ export default function Footer() {
         <hr></hr>
         <div className="contact-info-container">
           <div className="contact-info">
-            <a href="mailto:hello@alextrieu.com">hello@alextrieu.com</a>
+            <a href="mailto:hello@alextrieu.com">hello@alex.com</a>
           </div>
           <div className="contact-info">
             <a href="tel:+7788771116">778-877-1116</a>
@@ -19,22 +19,22 @@ export default function Footer() {
           <p>Socials</p>
           <ul className="socials-list">
             <li>
-              <a href="https://instagram.com/alex.trieu" target="_blank">
+              <a href="https://instagram.com" target="_blank">
                 Instagram
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/alextrieu" target="_blank">
+              <a href="https://twitter.com" target="_blank">
                 Twitter
               </a>
             </li>
             <li>
-              <a href="https://github.com/alextrieu" target="_blank">
+              <a href="https://github.com" target="_blank">
                 GitHub
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/alextrieu" target="_blank">
+              <a href="https://linkedin.com" target="_blank">
                 Linkedin
               </a>
             </li>
