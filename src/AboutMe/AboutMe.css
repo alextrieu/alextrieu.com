@@ -1,0 +1,38 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 10px;
+}
+
+.about-paragraph {
+  line-height: 1.45;
+  text-align: center;
+}
+
+.about-paragraph:nth-child(1) {
+  font-size: clamp(1.55em, 2.3vw, 2.5em);
+}
+
+.about-paragraph:nth-child(2) {
+  font-size: clamp(1.55em, 2.3vw, 2.5em);
+  line-height: 1.66;
+}
+
+.about-title {
+  color: #827f7f;
+}
+
+.circle {
+  display: inline-block; /* or 'block' depending on your layout */
+  width: 125px; /* Adjust size as needed */
+  height: 125px; /* Adjust size as needed */
+  background-color: #1c1d20; /* Or any shade of grey you prefer */
+  border-radius: 50%; /* This creates the round shape */
+  color: white; /* Adjust text color as needed */
+  line-height: 125px; /* Adjust to the height of your circle for vertical centering */
+  text-align: center; /* Centers the text horizontally */
+  font-size: 16px; /* Adjust text size as needed */
+  font-family: Arial, sans-serif; /* Adjust font family as needed */
+}

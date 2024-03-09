@@ -1,0 +1,44 @@
+.portfolio-img {
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+}
+
+.portfolio-img > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-wrapper {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.roles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+}
+
+.portfolio-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.portfolio-container {
+  margin-bottom: 30px;
+}
