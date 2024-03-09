@@ -11,8 +11,8 @@ export default function AboutMe() {
         <span className="about-title">business</span>
       </p>
       <p className="about-paragraph">
-        The combination of my passion for design, code & interaction positions
-        me in a unique place in the web design world.
+        My passion for design, code, and UX positions me in a unique place in
+        the web design world
       </p>
       <div className="circle">About Me</div>
     </div>
