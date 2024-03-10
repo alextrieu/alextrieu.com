@@ -1,0 +1,24 @@
+.info-wrapper {
+  padding: 10px;
+}
+.info-container {
+  background-color: #e9eaeb;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-title {
+  color: #424446;
+}
+
+.info-item {
+  display: flex;
+  gap: 20px;
+}
+
+.info {
+  color: black;
+}

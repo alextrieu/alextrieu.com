@@ -39,6 +39,28 @@
   margin-bottom: 20px;
 }
 
+.portfolio-header a {
+  text-decoration: none;
+  color: black;
+}
+
 .portfolio-container {
   margin-bottom: 30px;
+}
+
+.linkStyle {
+  color: black;
+}
+
+.portfolio-description {
+  margin-top: -20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.1em;
 }
