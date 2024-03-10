@@ -14,6 +14,11 @@ header {
   color: var(--textColor);
 }
 
+.text-logo a {
+  /* color: white; */
+  text-decoration: none;
+}
+
 nav a {
   margin: 0 1rem;
   color: var(--textColor);
@@ -30,7 +35,7 @@ header .nav-btn {
   background: transparent;
   border: none;
   outline: none;
-  color: var(--textColor);
+  /* color: var(--textColor); */
   display: none;
   opacity: 0;
 }
@@ -39,6 +44,16 @@ header div,
 nav {
   display: flex;
   align-items: center;
+}
+
+.homeTextLogo a,
+.homeNavBtn {
+  color: white;
+}
+
+.otherTextLogo a,
+.otherNavBtn {
+  color: black;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -70,6 +85,8 @@ nav {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    color: white;
+    font-size: 2rem;
   }
 
   nav a {

@@ -9,10 +9,10 @@ export default function Footer() {
         <hr></hr>
         <div className="contact-info-container">
           <div className="contact-info">
-            <a href="mailto:hello@alextrieu.com">hello@alex.com</a>
+            <a href="mailto:hello@alextrieu.com">hello@alextrieu.com</a>
           </div>
           <div className="contact-info">
-            <a href="tel:+7788771116">778-877-1116</a>
+            <a href="tel:+17788771116">778-877-1116</a>
           </div>
         </div>
         <div className="socials">
