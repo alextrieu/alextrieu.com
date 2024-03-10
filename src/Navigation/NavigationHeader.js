@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import "./NavigationHeader.css";
 
 function Navbar() {
@@ -12,10 +13,10 @@ function Navbar() {
     <header>
       <h3 className="roboto-thin">© Code by Alex</h3>
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">Work</a>
-        <a href="/#">About</a>
-        <a href="/#">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/work">Work</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           X
         </button>
