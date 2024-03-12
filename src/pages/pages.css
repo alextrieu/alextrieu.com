@@ -1,0 +1,60 @@
+.about-headshot {
+  width: 100%;
+}
+
+.about-container {
+  padding: 0 20px;
+}
+
+.about-paragraphs p {
+  line-height: 1.8em;
+  margin: 1em 0;
+}
+
+.about-container-title {
+  margin-bottom: 15px;
+}
+
+/* Contact */
+
+.contact-container {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background-color: #1c1d21;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.input-container > input,
+.input-container > textarea {
+  padding: 10px;
+}
+
+.name-container {
+  display: flex;
+  gap: 15px;
+}

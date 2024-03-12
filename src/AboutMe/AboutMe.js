@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./AboutMe.css";
 
 export default function AboutMe() {
@@ -14,7 +16,9 @@ export default function AboutMe() {
         My passion for design, code, and UX positions me in a unique place in
         the web design world
       </p>
-      <div className="circle">About Me</div>
+      <Link to="/about" className="circle">
+        About Me
+      </Link>
     </div>
   );
 }

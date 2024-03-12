@@ -31,4 +31,5 @@
   text-align: center; /* Centers the text horizontally */
   font-size: 16px; /* Adjust text size as needed */
   font-family: Arial, sans-serif; /* Adjust font family as needed */
+  text-decoration: none;
 }
