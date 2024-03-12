@@ -4,27 +4,43 @@
     "image": "1",
     "name": "Mei Garden Florals",
     "role": "Design & Development",
-    "year": "2023"
+    "year": "2023",
+    "website": "http://www.meigarden.ca",
+    "techStack": "Liquid, HTML, CSS, JavaScript",
+    "projectTitle": "Mei Garden Florals",
+    "projectDescription": "Isabella and Lisa, passionate florists, partnered with me to transform their vision into a thriving online presence. Our mission was to develop a strong brand identity, launch an intuitive e-commerce platform, and implement a comprehensive digital marketing strategy. We successfully built a custom Shopify website, optimized for both search engines and conversion rates, and engaged potential customers through targeted Google and Meta ads. The project culminated in a notable blended ROAS of 3.5, marking a significant milestone in their business journey. Reflecting on this experience, I gained valuable insights into the intricacies of paid advertising, the importance of CRO, and the art of creating an informative and user-friendly website."
   },
   {
     "id": 2,
     "image": "2",
     "name": "MiCoordinates",
     "role": "Design & Development",
-    "year": "2024"
+    "year": "2024",
+    "website": "http://www.micoordinates.com",
+    "techStack": "Liquid, HTML, CSS, JavaScript",
+    "projectTitle": "Gems Online: Nick & Partner's Journey into Digital Jewellery",
+    "projectDescription": "Nick and his wife, seasoned veterans with 20 years in the jewelry industry, embarked on a digital expansion to showcase and sell their exquisite creations online. Our collaboration aimed at establishing a strong brand identity, developing an engaging e-commerce platform, and carefully curating their product lineup. Together, we strategized an entry-level product offering as a foundation for future upscale collections, including solid gold items and engagement rings. The project culminated in the launch of a bespoke Shopify store, complete with compelling copywriting, conversion rate optimization, and SEO enhancements. This venture offered a valuable opportunity to leverage my e-commerce expertise, deepening my skills in CRO and SEO in a new and dynamic context."
   },
   {
     "id": 3,
     "image": "3",
     "name": "Pho Don Restaurant",
     "role": "Design & Development",
-    "year": "2024"
+    "year": "2024",
+    "website": "http://www.phodon.ca",
+    "techStack": "React JS, HTML, CSS, JavaScript, Sanity.io (Headless CMS)",
+    "projectTitle": "Pho Don's Digital Revival: A Modern Twist on Vietnamese Dining",
+    "projectDescription": "Don, the proprietor of Pho Don, a beloved Vietnamese eatery nestled in the bustling Hastings and Renfrew area, sought to modernize the restaurant's online footprint after a decade. As the dining landscape evolved towards digital interfaces, the need for a refreshed website and an enhanced online ordering experience became paramount. Our collaborative effort focused on revamping the website to be SEO-friendly and user-centric. We streamlined the menu, categorizing offerings into six main sections for ease of navigation, and enriched the homepage with compelling narratives about Pho Don's unique culinary journey. This project was a rewarding opportunity to delve into the challenges faced by established businesses seeking digital rejuvenation and to craft tailored solutions that resonate with their identity and customer needs."
   },
   {
     "id": 4,
     "image": "4",
     "name": "Nina Mak Realty",
     "role": "Design & Development",
-    "year": "2024"
+    "year": "2024",
+    "website": "http://www.ninamak.ca",
+    "techStack": "React JS, HTML, CSS, JavaScript",
+    "projectTitle": "Nina's Real Estate Realm: Building a Personal Brand Online",
+    "projectDescription": "Nina sought to establish her digital identity to present her portfolio and services to prospective clients. The project's cornerstone was the creation of a custom website, tailored to encapsulate Nina's personal brand, her array of services, showcased properties, and insightful market analyses. Drawing inspiration from leading industry websites, we meticulously crafted a platform that not only highlights Nina's professional expertise but also provides valuable information for her audience. This endeavor offered me a unique lens into the real estate domain, enriching my understanding of the intricacies involved in developing a specialized website from the ground up, optimizing for local SEO, and the importance of authentic content in establishing a personal brand online."
   }
 ]
