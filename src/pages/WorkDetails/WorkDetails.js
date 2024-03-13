@@ -3,6 +3,7 @@ import MainLayout from "../../layout/MainLayout";
 import { useParams } from "react-router-dom";
 import projects from "../../data/projects.json";
 import "./WorkDetails.css";
+import ScrollToTop from "../../ScrollToTop";
 
 import logo1 from "../../assets/images/logo1.png";
 import logo2 from "../../assets/images/logo2.png";
@@ -29,6 +30,7 @@ const logoMap = {
 };
 
 export default function WorkDetails() {
+  ScrollToTop();
   let { projectId } = useParams();
   const project = projects.find((p) => p.id === parseInt(projectId));
   if (!project) {
@@ -39,22 +41,22 @@ export default function WorkDetails() {
     <MainLayout>
       {" "}
       <div className="info-wrapper">
-        <div class="info-container">
-          <div class="info-item">
-            <span class="info-title">Company:</span>
-            <span class="info">{project.name}</span>
+        <div className="info-container">
+          <div className="info-item">
+            <span className="info-title">Company:</span>
+            <span className="info">{project.name}</span>
           </div>
-          <div class="info-item">
-            <span class="info-title">Project Type:</span>
-            <span class="info">Design, Development, SEO/CRO</span>
+          <div className="info-item">
+            <span className="info-title">Project Type:</span>
+            <span className="info">Design, Development, SEO/CRO</span>
           </div>
-          <div class="info-item">
-            <span class="info-title">Tech Stack:</span>
-            <span class="info">{project.techStack}</span>
+          <div className="info-item">
+            <span className="info-title">Tech Stack:</span>
+            <span className="info">{project.techStack}</span>
           </div>
-          <div class="info-item">
-            <span class="info-title">Year:</span>
-            <span class="info">{project.year}</span>
+          <div className="info-item">
+            <span className="info-title">Year:</span>
+            <span className="info">{project.year}</span>
           </div>
         </div>
         <div className="project-overview-container">

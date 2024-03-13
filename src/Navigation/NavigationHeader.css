@@ -1,7 +1,7 @@
 :root {
   --mainColor: #29335c;
   --mainColorLight: #5767aa;
-  --secondaryColor: #db2b39;
+  --secondaryColor: black;
   --textColor: #eee;
 }
 
@@ -56,6 +56,15 @@ nav {
   color: black;
 }
 
+.otherNav a {
+  color: black;
+}
+
+.otherHeader {
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 1024px) {
   header .nav-btn {
     display: block;
@@ -91,5 +100,12 @@ nav {
 
   nav a {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust the max-width as needed for your specific breakpoint */
+  .otherNav a {
+    color: white;
   }
 }

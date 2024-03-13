@@ -13,13 +13,15 @@ function Navbar() {
 
   const navBtnStyle = isHomePage ? "homeNavBtn" : "otherNavBtn";
   const textLogoStyle = isHomePage ? "homeTextLogo" : "otherTextLogo";
+  const headerStyle = isHomePage ? "homeHeader" : "otherHeader";
+  const navStyle = isHomePage ? "homeNav" : "otherNav";
 
   return (
-    <header>
+    <header className={headerStyle}>
       <h3 className={`roboto-thin text-logo ${textLogoStyle}`}>
         <Link to="/">© Code by Alex</Link>
       </h3>
-      <nav ref={navRef}>
+      <nav ref={navRef} className={navStyle}>
         <Link to="/">Home</Link>
         <Link to="/work">Work</Link>
         <Link to="/about">About</Link>

@@ -17,21 +17,37 @@
 
 /* Contact */
 
-.contact-container {
-  padding: 20px 20px;
-  text-align: center;
+.contact-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0px;
 }
 
 .contact-intro {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container {
+  display: flex;
+  gap: 10px;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .contact-btn {
@@ -42,19 +58,43 @@
   color: white;
 }
 
-.input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  flex: 1;
-}
-
 .input-container > input,
 .input-container > textarea {
   padding: 10px;
 }
 
-.name-container {
+.contact-btn-container {
+  align-self: center;
+}
+
+/* .contact-container {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.contact-intro {
   display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
   gap: 15px;
 }
+
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+
+
+.name-container {
+  display: flex;
+} */

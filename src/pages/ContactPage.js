@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import MainLayout from "../layout/MainLayout";
 import "./pages.css";
+import ScrollToTop from "../ScrollToTop";
 
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/719efb00-e0b9-11ee-8980-3397320e035b";
 
 const ContactPage = () => {
+  ScrollToTop();
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -51,11 +53,10 @@ const ContactPage = () => {
 
   return (
     <MainLayout>
-      <div className="contact-container">
+      <div className="contact-page-container">
         <div className="contact-intro">
-          <h1>Say Hello!</h1>
+          <h1>Say hello,</h1>
           <p>I’d love to hear from you!</p>
-          <p>Email me at hello@alextrieu.com or fill out the form below</p>
         </div>
         <form
           action={FORM_ENDPOINT}
@@ -81,7 +82,7 @@ const ContactPage = () => {
             <label>Send a message</label>
             <textarea name="message" required />
           </div>
-          <div>
+          <div className="contact-btn-container">
             <button type="submit" className="contact-btn">
               {" "}
               Submit{" "}

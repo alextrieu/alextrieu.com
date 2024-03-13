@@ -2,13 +2,14 @@ import React from "react";
 import MainLayout from "../layout/MainLayout";
 import headshot from "../assets/images/headshot.jpeg";
 import "./pages.css";
-
+import ScrollToTop from "../ScrollToTop";
 export default function AboutPage() {
+  ScrollToTop();
   return (
     <MainLayout>
       <div className="about-container">
         <h2 className="about-container-title">Hey, I'm Alex!</h2>
-        <img class="about-headshot" src={headshot} />
+        <img className="about-headshot" src={headshot} />
         <div className="about-paragraphs">
           <p>
             I’m an avid walker, nature lover, swimmer, bánh mì connoisseur, and
