@@ -8,7 +8,7 @@
     "website": "http://www.meigarden.ca",
     "techStack": "Liquid, HTML, CSS, JavaScript",
     "projectTitle": "Mei Garden Florals",
-    "projectDescription": "Isabella and Lisa, passionate florists, partnered with me to transform their vision into a thriving online presence. Our mission was to develop a strong brand identity, launch an intuitive e-commerce platform, and implement a comprehensive digital marketing strategy. We successfully built a custom Shopify website, optimized for both search engines and conversion rates, and engaged potential customers through targeted Google and Meta ads. The project culminated in a notable blended ROAS of 3.5, marking a significant milestone in their business journey. Reflecting on this experience, I gained valuable insights into the intricacies of paid advertising, the importance of CRO, and the art of creating an informative and user-friendly website."
+    "projectDescription": "Isabella and Lisa, passionate florists, partnered with me to transform their vision into a thriving online presence. Our mission was to develop a strong brand identity, launch an intuitive e-commerce platform, and implement a comprehensive digital marketing strategy. We successfully built a custom Shopify website, optimized for both search engines and conversion rates, and engaged potential customers through targeted Google and Meta ads. The project culminated in a notable blended ROAS of 2.7, marking a significant milestone in their business journey. Reflecting on this experience, I gained valuable insights into the intricacies of paid advertising, the importance of CRO, and the art of creating an informative and user-friendly website."
   },
   {
     "id": 2,
@@ -27,10 +27,10 @@
     "name": "Pho Don Restaurant",
     "role": "Design & Development",
     "year": "2024",
-    "website": "http://www.phodon.ca",
+    "website": "https://pho-don.vercel.app/",
     "techStack": "React JS, HTML, CSS, JavaScript, Sanity.io (Headless CMS)",
     "projectTitle": "Pho Don's Digital Revival: A Modern Twist on Vietnamese Dining",
-    "projectDescription": "Don, the proprietor of Pho Don, a beloved Vietnamese eatery nestled in the bustling Hastings and Renfrew area, sought to modernize the restaurant's online footprint after a decade. As the dining landscape evolved towards digital interfaces, the need for a refreshed website and an enhanced online ordering experience became paramount. Our collaborative effort focused on revamping the website to be SEO-friendly and user-centric. We streamlined the menu, categorizing offerings into six main sections for ease of navigation, and enriched the homepage with compelling narratives about Pho Don's unique culinary journey. This project was a rewarding opportunity to delve into the challenges faced by established businesses seeking digital rejuvenation and to craft tailored solutions that resonate with their identity and customer needs."
+    "projectDescription": "Don, chef and owner of Pho Don, a beloved Vietnamese eatery nestled in the bustling Hastings and Renfrew area, sought to modernize the restaurant's online footprint after a decade. As the dining landscape evolved towards digital interfaces, the need for a refreshed website and an enhanced online ordering experience became paramount. Our collaborative effort focused on revamping the website to be SEO-friendly and user-centric. We streamlined the menu, categorizing offerings into six main sections for ease of navigation, and enriched the homepage with compelling narratives about Pho Don's unique culinary journey. This project was a rewarding opportunity to delve into the challenges faced by established businesses seeking digital rejuvenation and to craft tailored solutions that resonate with their identity and customer needs."
   },
   {
     "id": 4,

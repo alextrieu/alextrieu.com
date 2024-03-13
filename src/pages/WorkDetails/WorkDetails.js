@@ -69,9 +69,15 @@ export default function WorkDetails() {
               {project.projectDescription}
             </p>
           </div>
-          <a href={project.website} className="visit-website">
+          <a
+            href={project.website}
+            className="visit-website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Visit Website →
           </a>
+
           <img className="project-overview" src={imageMap[project.image]} />
         </div>
       </div>

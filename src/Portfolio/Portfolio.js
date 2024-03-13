@@ -25,8 +25,8 @@ export default function Portfolio({ showDescription }) {
       {showDescription && (
         <div className="portfolio-description-container">
           <span className="portfolio-description">
-            Welcome to my curated showcase of recent projects, each reflecting
-            my passion and dedication to innovation and quality.
+            Welcome to my showcase of recent projects, each reflecting my
+            passion and dedication to innovation and quality.
           </span>
           <span className="portfolio-description">
             Click on any project to discover the challenges, technologies, and
