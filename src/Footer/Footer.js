@@ -15,8 +15,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="email-container">
-          <a href="mailto:hello@alextrieu.com" className="footer-email">
-            hello@alextrieu.com
+          <a href="mailto:trieu.alex1@gmail.com" className="footer-email">
+            trieu.alex1@gmail.com
           </a>
           <p>© 2024 Alex Trieu. All Rights Reserved.</p>
         </div>
