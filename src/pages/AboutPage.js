@@ -11,6 +11,7 @@ export default function AboutPage() {
         <h2 className="about-container-title">Hey, I'm Alex!</h2>
         <img className="about-headshot" src={headshot} />
         <div className="about-paragraphs">
+          <h1 className="about-introduction">Hey, I'm Alex</h1>
           <p>
             I’m an avid walker, nature lover, swimmer, bánh mì connoisseur, and
             the reason you’re here—a web designer!

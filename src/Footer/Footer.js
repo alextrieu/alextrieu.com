@@ -9,6 +9,7 @@ export default function Footer() {
         {/* <h2 className="contact-title">Let's Connect!</h2>
         <hr></hr> */}
         <div className="contact-info-container">
+          <h1 className="footer-cta">Let's Talk!</h1>
           <div className="contact-info">
             <Link to="/contact">Get in Touch</Link>
           </div>

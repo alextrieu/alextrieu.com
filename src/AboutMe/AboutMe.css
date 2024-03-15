@@ -9,7 +9,7 @@
 .about-paragraph {
   line-height: 1.45;
   text-align: center;
-  font-size: clamp(1.3em, 2.3vw, 2.5em);
+  font-size: clamp(1.2em, 2.3vw, 1.6em);
 }
 
 .about-paragraph:nth-child(2) {
@@ -32,4 +32,16 @@
   font-size: 16px; /* Adjust text size as needed */
   font-family: Arial, sans-serif; /* Adjust font family as needed */
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-content {
+    padding: 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .about-content {
+    padding: 30px 200px;
+  }
 }

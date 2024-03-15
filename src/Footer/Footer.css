@@ -1,11 +1,7 @@
 .footer {
   background-color: #1c1d21;
   color: white;
-  padding: 40px 0;
-}
-
-.contact-container {
-  margin: 0 10px;
+  padding: 40px 20px;
 }
 
 .contact-info-container,
@@ -71,4 +67,27 @@
 
 .footer-email {
   color: white;
+}
+
+.footer-cta {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-info {
+    width: 200px;
+  }
+
+  .footer-cta {
+    text-align: start;
+  }
+  .footer {
+    padding: 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    padding: 30px 200px;
+  }
 }

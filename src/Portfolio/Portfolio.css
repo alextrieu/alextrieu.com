@@ -10,7 +10,7 @@
 }
 
 .portfolio-wrapper {
-  margin: 0 10px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -63,4 +63,24 @@
   flex-direction: column;
   gap: 15px;
   font-size: 1.1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio-img {
+    display: none;
+  }
+
+  .portfolio-wrapper {
+    padding: 30px 100px;
+  }
+
+  .portfolio-description-container {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .portfolio-wrapper {
+    padding: 30px 200px;
+  }
 }
