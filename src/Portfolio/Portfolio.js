@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop";
 
 import "./Portfolio.css";
 import project1Image from "../assets/images/1.webp";
@@ -17,6 +18,7 @@ const imageMap = {
 };
 
 export default function Portfolio({ showDescription }) {
+  ScrollToTop();
   return (
     <div className="portfolio-wrapper">
       <h2 className="portfolio-header">
@@ -35,26 +37,26 @@ export default function Portfolio({ showDescription }) {
         </div>
       )}
       {projects.map((project) => (
-        <div key={project.id} className="portfolio-container">
-          <div className="portfolio-img">
-            <img
-              src={imageMap[project.image]}
-              loading="lazy"
-              alt={project.name}
-            />
-          </div>
-          <div className="project-container">
-            <p className="project-title">{project.name}</p>
-            <div className="roles">
-              <span>{project.role}</span>
-              <span>{project.year}</span>
+        <Link to={`/work/${project.id}`} className="linkStyle">
+          <div key={project.id} className="portfolio-container">
+            <div className="portfolio-img">
+              <img
+                src={imageMap[project.image]}
+                loading="lazy"
+                alt={project.name}
+              />
             </div>
-            <hr></hr>
-            <Link to={`/work/${project.id}`} className="linkStyle">
-              More Details →
-            </Link>
+            <div className="project-container">
+              <p className="project-title">{project.name}</p>
+              <div className="roles">
+                <span>{project.role}</span>
+                <span>{project.year}</span>
+              </div>
+              <hr></hr>
+              <span className="project-redirect">More Details →</span>
+            </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );

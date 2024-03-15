@@ -50,6 +50,11 @@
 
 .linkStyle {
   color: black;
+  text-decoration: none;
+}
+
+.project-redirect {
+  text-decoration: underline;
 }
 
 .portfolio-description {
