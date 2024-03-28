@@ -37,8 +37,8 @@ export default function Portfolio({ showDescription }) {
         </div>
       )}
       {projects.map((project) => (
-        <Link to={`/work/${project.id}`} className="linkStyle">
-          <div key={project.id} className="portfolio-container">
+        <Link to={`/work/${project.id}`} className="linkStyle" key={project.id}>
+          <div className="portfolio-container">
             <div className="portfolio-img">
               <img
                 src={imageMap[project.image]}
