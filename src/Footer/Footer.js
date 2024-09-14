@@ -24,23 +24,13 @@ export default function Footer() {
           <p>Socials</p>
           <ul className="socials-list">
             <li>
-              <a href="https://instagram.com" target="_blank">
+              <a href="https://instagram.com/alex.trieu" target="_blank">
                 Instagram
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank">
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com" target="_blank">
+              <a href="https://github.com/alextrieu" target="_blank">
                 GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://linkedin.com" target="_blank">
-                Linkedin
               </a>
             </li>
           </ul>
